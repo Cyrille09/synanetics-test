@@ -1,0 +1,17 @@
+/* export default {
+  primary: '#f7287b',
+  secondary: '#c717fc',
+  header: 'orange',
+  backgroundColor: 'orange',
+  accent: '#c717fc',
+  black: 'black',
+  orange: '#f03c02',
+}; */
+
+:root {
+  --bg-color: #101e21;
+  --colo1: #a0bcca;
+  --colo2: #a0bc2a;
+  --red: #f03c02;
+  --orange: #fd6f41;
+}

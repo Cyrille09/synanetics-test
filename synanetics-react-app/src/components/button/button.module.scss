@@ -1,0 +1,46 @@
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.btn a {
+  background: green;
+  padding: 5px 15px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.btn:disabled {
+  background-color: #c5c5c5;
+  color: #313131;
+  cursor: default;
+}
+.btn:hover {
+  color: #ffffff;
+}
+.primary {
+  background: #1e90ff;
+}
+.secondary {
+  background: #696969;
+}
+.success {
+  background: #4db848;
+}
+.danger {
+  background: darkred;
+}
+.info {
+  background: #00ced1;
+}
+.warning {
+  background: goldenrod;
+}
+.dark {
+  background: rgb(56, 53, 53);
+}
+
+.small {
+  font-size: 0.875rem;
+}

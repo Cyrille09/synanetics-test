@@ -1,0 +1,91 @@
+[{
+  "_id": {
+    "$oid": "620e08606d98d7baffca7f16"
+  },
+  "name": "Shoe One",
+  "price": 25,
+  "discount": 0,
+  "user": {
+    "$oid": "62090a455102b39e19c8736a"
+  },
+  "productImage": "49c3d0069e8b32c3a39dd48ccc6f6c40",
+  "createdAt": {
+    "$date": "2022-02-17T08:33:36.874Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-17T08:33:36.874Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620e08c76d98d7baffca7f70"
+  },
+  "name": "Trouser One",
+  "price": 45,
+  "discount": 15,
+  "user": {
+    "$oid": "62090a455102b39e19c8736a"
+  },
+  "productImage": "37b5476b75f2d8aec5893ac1aaf89ea8",
+  "createdAt": {
+    "$date": "2022-02-17T08:35:19.940Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-17T08:35:19.940Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620e08e46d98d7baffca7fc5"
+  },
+  "name": "Cap One",
+  "price": 25,
+  "discount": 5,
+  "user": {
+    "$oid": "62090a455102b39e19c8736a"
+  },
+  "productImage": "b74fdf34a2bfbcbf54885a14ed3d3060",
+  "createdAt": {
+    "$date": "2022-02-17T08:35:48.245Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-17T08:36:28.117Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620e08f96d98d7baffca801d"
+  },
+  "name": "Cap Two",
+  "price": 30,
+  "discount": 20,
+  "user": {
+    "$oid": "62090a455102b39e19c8736a"
+  },
+  "productImage": "6f61f3d7ec97e2a657f01056b654ccea",
+  "createdAt": {
+    "$date": "2022-02-17T08:36:09.662Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-17T08:36:39.953Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "620e09626d98d7baffca8153"
+  },
+  "name": "Shoe two",
+  "price": 65,
+  "discount": 40,
+  "user": {
+    "$oid": "62090a455102b39e19c8736a"
+  },
+  "productImage": "7694c6adedfecc4bd32da6c23925a859",
+  "createdAt": {
+    "$date": "2022-02-17T08:37:54.828Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-17T08:37:54.828Z"
+  },
+  "__v": 0
+}]

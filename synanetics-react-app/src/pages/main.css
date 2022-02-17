@@ -1,0 +1,369 @@
+/* Fontent page css */
+.layout-content {
+  margin-top: 50px;
+}
+.home-page {
+  text-align: center;
+}
+.products {
+  margin: 20px auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.home-card {
+  width: 500px;
+  height: 400px;
+  border: 1px solid black;
+  border-radius: 5;
+  overflow: hidden;
+  padding: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.product-image {
+  width: 100%;
+  max-width: 90%;
+  max-height: 200px;
+  display: block;
+  object-fit: cover;
+}
+.product-name {
+  text-transform: capitalize;
+  margin: 10px 0px;
+}
+.product-price {
+  display: flex;
+
+  margin: 10px 0px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.product-add-button {
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 40px;
+  display: block;
+  cursor: pointer;
+  text-transform: uppercase;
+  margin: 15px auto;
+}
+.product-add-button:hover {
+  background-color: red;
+}
+.product-add-button:active {
+  transform: translateY(2px);
+}
+/* login page css */
+.login-icon {
+  padding-right: 5px;
+}
+.user-icon {
+  font-size: 25px;
+  padding-top: 10px;
+}
+.user-detail-record {
+  margin-bottom: 20px;
+}
+.ImageSt {
+  margin: 30px 0px 50px 20px;
+}
+.headerTitleName {
+  padding-left: 10px;
+}
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+.form-group-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+}
+
+/*end of login css */
+
+/* Start Pagination */
+.paginationBttns {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  color: #2b2eff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: gray;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: gray;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: white;
+  pointer-events: none;
+}
+.pgBtSp {
+  margin-bottom: 30px;
+}
+
+/* End of pagination */
+
+/* users css */
+.headerTable {
+  background-color: black;
+  color: white;
+}
+
+/*end of users css*/
+
+.errorMessage {
+  color: darkred;
+  margin-top: -24px;
+  font-weight: bold;
+}
+
+/* dashboard */
+.bashvoard-nav {
+  margin-top: -20px;
+}
+.navbar-nav {
+  margin-top: 35px;
+}
+.disabled-link {
+  pointer-events: none;
+}
+.col-span {
+  text-align: center;
+}
+.doc-download {
+  color: blue;
+}
+.each-top {
+  margin-top: 10px;
+}
+.each-detail {
+  background-color: #343a40;
+  color: white;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+
+.each-p span {
+  color: gray;
+}
+.each-desc {
+  text-align: justify;
+}
+.imageRound {
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+}
+.logoutDropdown {
+  padding-top: 10px;
+}
+
+.icon-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #333333;
+  background: #dddddd;
+  border-radius: 50%;
+  font-size: large;
+  margin-right: 25px;
+}
+
+.icon-button:hover {
+  background: #cccccc;
+}
+.icon-button-home {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #333333;
+  background: #dddddd;
+  border-radius: 50%;
+  font-size: large;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+
+.icon-button-home:hover {
+  background: #cccccc;
+}
+.cart-items {
+  margin: 30px auto;
+  width: 90%;
+  background-color: orange;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.cart-items-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  height: 50px;
+  border-bottom: 2px solid black;
+}
+.cart-items-empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cart-items-image {
+  width: 100px;
+  height: auto;
+  border: 2px solid black;
+  margin-right: 10px;
+}
+.cart-items-list {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 5%;
+}
+.cart-items-name,
+.cart-items-function {
+  width: 25%;
+}
+.cart-items-add,
+.cart-items-remove {
+  width: 30px;
+  margin-right: 15px;
+  font-weight: 700;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.cart-items-add {
+  background-color: green;
+}
+.cart-items-remove {
+  background-color: red;
+}
+.cart-items-add:active {
+  transform: translateY(1.2);
+}
+.cart-items-remove:active {
+  transform: translateY(1.2);
+}
+.cart-items-total-price-name {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 22%;
+  font-size: 20px;
+  font-weight: 700;
+  border-top: 2px solid black;
+}
+.cart-items-total-price {
+  display: flex;
+  padding-left: 45%;
+}
+.main_spinner {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.badge-icon {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 25px;
+  height: 25px;
+  background: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.profile-side-bar {
+  background-color: #343a40;
+  padding: 20px;
+}
+
+.profile-side-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.flavicon-image {
+  margin: 0px 10px 0px 20px;
+}
+
+.profile-side-bar li {
+  padding-bottom: 20px;
+}
+
+.selected {
+  color: white;
+  /* margin-right: 20px; */
+  padding-left: 15px;
+}
+
+.selectedProfile {
+  background-color: orange;
+}
+.selectedProfile:hover {
+  background-color: blue;
+}

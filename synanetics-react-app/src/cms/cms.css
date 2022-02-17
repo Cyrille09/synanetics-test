@@ -1,0 +1,15 @@
+.nav-sidebar p {
+  color: white;
+}
+.each-detail h5 {
+  color: white;
+}
+.checked {
+  color: green;
+}
+.unchecked {
+  color: red;
+}
+.top-layout {
+  margin-top: 20px;
+}

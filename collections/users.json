@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "62090a455102b39e19c8736a"
+  },
+  "email": "cyrisenahoun@gmail.com",
+  "password": "$2a$08$0.9/xPUwl5Plkwa1QRrffeVpNzi5HW.wqkti0DS1bAhS.g8jre3Ny",
+  "gender": "male",
+  "status": "active",
+  "role": "admin",
+  "firstName": "Cyrille",
+  "lastName": "Hounvio",
+  "mobile": "+447943049514",
+  "tokens": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjA5MGE0NTUxMDJiMzllMTljODczNmEiLCJpYXQiOjE2NDQ3OTg4MDB9.XaAUx_kaO20KQH-bd8fcf3JqU5vhvrVCbm7zCoFDoAg",
+      "_id": {
+        "$oid": "6209a350c837e4b773179f7c"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjA5MGE0NTUxMDJiMzllMTljODczNmEiLCJpYXQiOjE2NDQ4ODMyODR9.L0_srPpOUr8OdeiLiDPxqW05FErsXOPo7E1BTT8d1Gs",
+      "_id": {
+        "$oid": "620aed54e159ecd4d672f37d"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjA5MGE0NTUxMDJiMzllMTljODczNmEiLCJpYXQiOjE2NDUwODg2NDd9.nHByAIJYPvVB5oCgH5lsnIek89AGzBU_qkTysFbQUjc",
+      "_id": {
+        "$oid": "620e0f876d98d7baffca8419"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-02-13T13:40:21.857Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-17T09:04:07.580Z"
+  },
+  "__v": 33
+},{
+  "_id": {
+    "$oid": "620e060f6d98d7baffca7cbe"
+  },
+  "email": "admin@gmail.com",
+  "password": "$2a$08$0cjrNIGjnimDln9apyl0tuM4XBBpOreDwItvgY6gY/8FwJuM3mheC",
+  "gender": "male",
+  "status": "active",
+  "role": "admin",
+  "firstName": "John",
+  "lastName": "Smith",
+  "mobile": "07777777777",
+  "tokens": [
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjBlMDYwZjZkOThkN2JhZmZjYTdjYmUiLCJpYXQiOjE2NDUwODYyMjN9._l_Wm50hKQphn3DBYFZene4mcloTklSxaKup0knR0M4",
+      "_id": {
+        "$oid": "620e060f6d98d7baffca7cc0"
+      }
+    },
+    {
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjBlMDYwZjZkOThkN2JhZmZjYTdjYmUiLCJpYXQiOjE2NDUwODYyNTh9.hIGsjSjiyIKwh-me22tq5J-ZWRViieQoTC6mqpvsFwA",
+      "_id": {
+        "$oid": "620e06326d98d7baffca7cce"
+      }
+    }
+  ],
+  "createdAt": {
+    "$date": "2022-02-17T08:23:43.625Z"
+  },
+  "updatedAt": {
+    "$date": "2022-02-17T09:03:54.136Z"
+  },
+  "__v": 6
+}]
